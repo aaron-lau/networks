@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Run script for the client
+#Assignment 3
+#Computer Networks (CS 456)
+#Aaron Lau
+#20572242
+
+#Number of parameters: 3-6
+#Parameter:
+#    $1: <host> – ip address of server
+#    $2: <port> - port that the server is listening through
+#    $3: <op-string> – command and key string
+#    $4: <file name> - file name to download to or upload
+#    $5: <send|recv size> – size of the buffer that is transmitted during each
+#         individual write/send or read/recv system call during the file transfer
+#    $6: <wait time> - wait time in milliseconds between subsequent write/send
+#         system calls. Assume the wait time is always below 1 second
+
+python3 client.py $1 $2 $3 $4 $5 $6

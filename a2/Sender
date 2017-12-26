@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#Run script for the Sender application
+#Assignment 2
+#Computer Networks (CS 456)
+#Aaron Lau
+#20572242
+
+#Number of parameters: 3
+#Parameter:
+#    $1: <protocol selector> – 0 for Go-Back-N or 1 for Selective Repeat,
+#    $2: <timeout> - the value of a timeout in milliseconds,
+#    $3: <filename> - the filename to be transferred
+
+python3 sender.py $1 $2 $3

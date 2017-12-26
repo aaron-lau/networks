@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Run script for the Sender application
+#Assignment 2
+#Computer Networks (CS 456)
+#Aaron Lau
+#20572242
+
+#Number of parameters: 3
+#Parameter:
+#    $1: <protocol selector> – 0 for Go-Back-N or 1 for Selective Repeat,
+#    $2: <filename> - the filename to which the transferred file is written
+
+python3 receiver.py $1 $2

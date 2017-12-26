@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Run script for the server application
+#Assignment 3
+#Computer Networks (CS 456)
+#Aaron Lau
+#20572242
+
+#Number of parameters: 0
+
+python3 server.py
